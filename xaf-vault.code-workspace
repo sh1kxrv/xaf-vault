@@ -1,33 +1,33 @@
 {
   "folders": [
-	{
-		"name": "✨ xaf-vault",
-		"path": "."
-	},
-	{
-		"name": "📦 @vault/eslint",
-		"path": "packages/shared-eslint"
-	},
-	{
-		"name": "📦 @vault/jest",
-		"path": "packages/shared-jest"
-	},
-	{
-		"name": "📦 @vault/cli",
-		"path": "packages/vault-cli"
-	},
-	{
-		"name": "📦 @vault/core",
-		"path": "packages/vault-core"
-	},
-	{
-		"name": "📦 @vault/crypto",
-		"path": "packages/vault-crypto"
-	},
-	{
-		"name": "📦 @vault/ui",
-		"path": "packages/vault-ui"
-	}
-],
+    {
+      "name": "✨ xaf-vault",
+      "path": "."
+    },
+    {
+      "name": "📦 @vault/eslint",
+      "path": "packages/shared-eslint"
+    },
+    {
+      "name": "📦 @vault/jest",
+      "path": "packages/shared-jest"
+    },
+    {
+      "name": "📦 @vault/cli",
+      "path": "packages/vault-cli"
+    },
+    {
+      "name": "📦 @vault/core",
+      "path": "packages/vault-core"
+    },
+    {
+      "name": "📦 @vault/crypto",
+      "path": "packages/vault-crypto"
+    },
+    {
+      "name": "📦 @vault/ui",
+      "path": "packages/vault-ui"
+    }
+  ],
   "settings": {}
 }

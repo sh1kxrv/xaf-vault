@@ -5,7 +5,7 @@
   "description": "Shared Jest Config",
   "author": "xafxafxaf",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "dependencies": {
     "esbuild": "^0.13.12",
     "esbuild-jest": "^0.5.0"

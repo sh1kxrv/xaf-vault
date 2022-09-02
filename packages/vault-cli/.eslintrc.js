@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@vault/eslint'],
+  extends: ['../../node_modules/@vault/eslint'],
   parserOptions: {
     project: ['./tsconfig.json'],
   },
