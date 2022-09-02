@@ -1,0 +1,18 @@
+{
+  "name": "@vault/crypto",
+  "version": "1.0.0",
+  "description": "A Vault Cryptography Library",
+  "main": "src/lib.ts",
+  "author": "xafxafxaf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.14",
+    "@vault/eslint": "*",
+    "@vault/jest": "*",
+    "jest": "^29.0.1"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+
+    // Module
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Strict
+    "strict": true,
+    "allowJs": false,
+    "noEmit": true,
+
+    // Dev
+    "sourceMap": true,
+    "watch": true,
+    "preserveWatchOutput": false,
+
+    // Other
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "~/src/*": ["./src/*"],
+      "@vault/*": ["./packages/*"]
+    }
+  }
+}

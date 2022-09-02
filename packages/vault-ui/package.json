@@ -1,0 +1,9 @@
+{
+  "name": "@vault/ui",
+  "version": "1.0.0",
+  "description": "A Vault UI",
+  "main": "dist/index.html",
+  "author": "xafxafxaf",
+  "license": "MIT",
+  "private": false
+}

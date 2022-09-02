@@ -1,0 +1,29 @@
+{
+  "name": "xaf-vault",
+  "version": "1.0.0",
+  "repository": "https://github.com/xafxafxaf/xaf-vault.git",
+  "author": "Егор <ItsAwware@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.4.4"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "turbo run test --parallel",
+    "typecheck": "turbo run typecheck",
+    "cli:build": "turbo run build --scope=@vault/cli",
+    "cli:start": "yarn cli:build && yarn workspace @vault/cli run start"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.17"
+}
