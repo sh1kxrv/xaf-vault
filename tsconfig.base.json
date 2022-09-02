@@ -27,7 +27,7 @@
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "~/src/*": ["./src/*"],
+      "~/*": ["./src/*"],
       "@vault/*": ["./packages/*"]
     }
   }

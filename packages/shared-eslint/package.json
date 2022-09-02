@@ -7,11 +7,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/eslint-parser": "7.15.4",
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
+    "@babel/eslint-parser": "7.18.9",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.7.1"
   }
 }
