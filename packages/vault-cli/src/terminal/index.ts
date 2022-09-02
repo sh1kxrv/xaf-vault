@@ -1,4 +1,4 @@
-import { blue, gray, green, red } from 'kolorist'
+import { blue, gray, green, lightRed, red } from 'kolorist'
 
 function emoji_message(message: string, emoji: string, postfix = '⇝') {
   console.log(`[${emoji}] ${gray(postfix)} ${message}`)
@@ -17,5 +17,5 @@ export function success(message: string) {
 }
 
 export function error(message: string) {
-  emoji_message(red(message), '🤡')
+  emoji_message(lightRed(message), '🤡')
 }
