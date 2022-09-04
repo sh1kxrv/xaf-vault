@@ -1,13 +1,24 @@
 import { SQLBuilderAPI } from '~/api/sql/sql-builder'
+import { Instruction } from './instruction'
+/*
 
+ ROOT_INSTRUCTION
+   ( (- SELECT
+     - OPERAND ) -> ( FROM
+                      - OPERAND ) )
+
+* EXECUTE ROOT INSTRUCTION
+* -> SELECT <OPERAND> FROM <OPERAND>
+*/
 export class SQLBuilder implements SQLBuilderAPI {
-  _instructions: string[] = []
-  _builded = ''
+  _instructions: Instruction[] = []
   select(table_name: string, columns: string[]): SQLBuilderAPI {
-    this.instruction('SELECT')
     return this
   }
   insert(table_name: string, columns: string[]): SQLBuilderAPI {
+    return this
+  }
+  value(value: object): SQLBuilderAPI {
     return this
   }
   update(table_name: string): SQLBuilderAPI {
@@ -18,8 +29,5 @@ export class SQLBuilder implements SQLBuilderAPI {
   }
   where(column: string, condition: string): SQLBuilderAPI {
     return this
-  }
-  private instruction(instruction: string) {
-    this._instructions.push(`${instruction};`)
   }
 }
