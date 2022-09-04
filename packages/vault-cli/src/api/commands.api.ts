@@ -1,4 +1,5 @@
 export interface Command {
   name: string
-  execute(...args: unknown[]): void
+  shortcut: string
+  execute(...args: unknown[]): Promise<void> | void
 }
