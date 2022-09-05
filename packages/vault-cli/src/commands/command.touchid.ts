@@ -1,5 +1,5 @@
 import { Command } from '~/api/commands.api'
-import { NotImplementedError } from '~/exceptions/not-implemented'
+import { NotImplementedError } from '@vault/core'
 
 export class TouchIDCommand implements Command {
   name = 'touch'

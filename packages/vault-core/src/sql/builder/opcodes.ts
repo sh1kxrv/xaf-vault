@@ -3,5 +3,11 @@ export enum OpCode {
   INSERT = 0x2,
   UPDATE = 0x3,
   DELETE = 0x4,
-  UNKNOWN = 0x5,
+  COLUMNS = 0x5,
+  WHERE = 0x6,
+  SET = 0x7,
+  FROM = 0x8,
+  QUERY = 0x9,
+
+  UNKNOWN = 0xaff,
 }

@@ -1,5 +1,5 @@
+import { NotImplementedError } from '@vault/core'
 import { Command } from '~/api/commands.api'
-import { NotImplementedError } from '~/exceptions/not-implemented'
 
 export class TransferCommand implements Command {
   name = 'transfer'
