@@ -25,8 +25,12 @@
       "path": "packages/vault-crypto"
     },
     {
-      "name": "📦 @vault/ui",
-      "path": "packages/vault-ui"
+      "name": "📦 @vault/web-ui",
+      "path": "packages/vault-web-ui"
+    },
+    {
+      "name": "📦 @vault/sql",
+      "path": "packages/vault-sql"
     }
   ],
   "settings": {}

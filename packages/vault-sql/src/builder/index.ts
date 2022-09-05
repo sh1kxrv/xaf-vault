@@ -1,4 +1,4 @@
-import { SQLBuilderAPI } from '~/api/sql/sql-builder'
+import { SQLBuilderAPI } from '~/api/sql-builder'
 import { Instruction } from './instruction'
 import {
   SelectInstruction,

@@ -1,4 +1,4 @@
-import { NotImplementedError } from '~/exceptions/not-implemented'
+import { NotImplementedError } from '~/exceptions'
 import { OpCode } from './opcodes'
 
 export abstract class Instruction {

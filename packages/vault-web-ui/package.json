@@ -1,5 +1,5 @@
 {
-  "name": "@vault/ui",
+  "name": "@vault/web-ui",
   "version": "1.0.0",
   "description": "A Vault UI",
   "main": "dist/index.html",

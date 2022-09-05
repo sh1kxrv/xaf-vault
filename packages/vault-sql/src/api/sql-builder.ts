@@ -1,4 +1,4 @@
-import { OpCode } from '~/sql/builder/opcodes'
+import { OpCode } from '~/builder/opcodes'
 export interface InstructionAPI {
   operand: unknown
   opcode: OpCode
