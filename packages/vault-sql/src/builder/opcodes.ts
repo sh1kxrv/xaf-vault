@@ -3,11 +3,22 @@ export enum OpCode {
   INSERT = 0x2,
   UPDATE = 0x3,
   DELETE = 0x4,
-  COLUMNS = 0x5,
+  FROM = 0x8,
+  VALUES = 0x14,
+
+  // Conditions
+  ORDER = 0xa,
+  ASC = 0xb,
+  DESC = 0xc,
   WHERE = 0x6,
   SET = 0x7,
-  FROM = 0x8,
-  QUERY = 0x9,
+  COLUMNS = 0x5,
+  OFFSET = 0x9,
+  LIMIT = 0x12,
 
+  // Wrappers
+  BRACKET_WRAPPER = 0x10,
+
+  QUERY = 0x1337,
   UNKNOWN = 0xaff,
 }

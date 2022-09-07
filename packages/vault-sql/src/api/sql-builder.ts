@@ -10,8 +10,10 @@ export interface SQLBuilderAPI {
   update(table_name: string): SQLBuilderAPI
   delete(table_name: string): SQLBuilderAPI
   where(condition: string): SQLBuilderAPI
+  values(values: object): SQLBuilderAPI
 
   query(builder: SQLBuilderAPI): SQLBuilderAPI
 
   set(column: string, value: unknown): SQLBuilderAPI
+  order_by(condition: string, sort_type: 'asc' | 'desc'): SQLBuilderAPI
 }
